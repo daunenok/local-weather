@@ -1,11 +1,25 @@
 html {
 	min-height: 100%;
-	background: url("pogoda.jpg") left top/cover no-repeat;
 }
 body {
-	font: 16px verdana, sans-serif;
+	text-align: center;
+	background-color: #000;
+	color: #fff;
+	font: 28px 'Courgette', cursive;
 }
 h1 {
-	text-align: center;
-	font-size: 250%;
+	font-size: 300%;
+}
+#city {
+	margin-bottom: 30px;
+}
+a {
+	text-decoration: none;
+	color: #0000ff;
+}
+
+@media screen and (max-width: 500px) {
+	h1 {
+		font-size: 150%;
+	}
 }
