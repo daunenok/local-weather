@@ -1,0 +1,11 @@
+html {
+	min-height: 100%;
+	background: url("pogoda.jpg") left top/cover no-repeat;
+}
+body {
+	font: 16px verdana, sans-serif;
+}
+h1 {
+	text-align: center;
+	font-size: 250%;
+}
